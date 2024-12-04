@@ -1,0 +1,226 @@
+    
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-section {
+    width: 40%;
+    padding: 10px;
+}
+
+.product-button2 {
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: #F6EBBA;
+    border: 2px solid #D4D4BA;
+    width: 200px;
+    height: 80px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 60px;
+}
+.product-button {
+    background-color: #F6F9EB;
+    border: 2px solid #D4D4BA;
+    width: 300px;
+    height: 80px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 60px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #D4D4BA;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #8CBF45;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #75a539;
+}
+
+.totals {
+    margin-top: 20px;
+}
+
+.totals div {
+    margin-bottom: 10px;
+}
+.nav-button{
+    display: flex;
+    justify-content: flex-end; /* Esto alinea los elementos a la derecha */
+    align-items: flex-start; /* Esto alinea los elementos en la parte superior */
+    position: absolute; /* Posiciona el contenedor de manera absoluta */
+    top: 0; /* Posiciona en la parte superior de la pantalla */
+    right: 0;
+    padding: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end; /* Esto alinea los elementos a la derecha */
+    align-items: flex-start; /* Esto alinea los elementos en la parte superior */
+    position: absolute; /* Posiciona el contenedor de manera absoluta */
+   /* top: 2; /* Posiciona en la parte superior de la pantalla */
+    right: 0;
+    padding: 10px;
+}
+
+.nav-menu div {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav-menu div:hover {
+    background-color: #DDD;
+}
+
+.right-section {
+    width: 50%;
+    background-color: #F6F9EB;
+    padding: 40px;
+    border: 1px solid #D4D4BA;
+    border-radius: 10px;
+}
+
+.dropdown {
+    font-size: 24px;
+    padding: 5px;
+    background-color: #8CBF45;
+  
+}
+
+.open-drawer {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.logo {
+margin-right: 0px;
+}
+
+.logo img {
+max-width: 150px;
+}
+.bib-list{
+    display: flex;
+}
+/* Estilos generales del botón */
+.dropdown-center .btn {
+    background-color: #8DA555;
+    color: #0a0a0a;
+    padding: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos del menú desplegable */
+.dropdown-center .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    max-width:280px;
+}
+
+/* Estilos de los elementos del menú */
+.dropdown-center .dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-center .dropdown-menu li a {
+    color: #100f0f;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-center .dropdown-menu li a:hover {
+    background-color: #8DA555;
+}
+
+/* Mostrar el menú desplegable cuando se hace hover en el botón */
+.dropdown-center:hover .dropdown-menu,
+.dropdown-center:focus-within .dropdown-menu {
+    display: block;
+}
+.nota-venta {
+    position: absolute; /* Para posicionar la nota de venta */
+    right: 20px; /* Margen derecho */
+    top: 100px; /* Ajusta según sea necesario */
+    width: 350px; 
+    background-color: #ffffff;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 15px; 
+}
+
+.nota-venta h3 {
+    text-align: center; 
+}
+
+.nota-venta table {
+    width: 100%; 
+    margin-bottom: 15px; 
+}
+
+.nota-venta th, .nota-venta td {
+    padding: 8px; 
+    text-align: left; 
+}
+
+.nota-venta .totales {
+    font-weight: bold; 
+}
+
+.btn {
+    width: 100%; 
+    margin-top: 5px; 
+}
