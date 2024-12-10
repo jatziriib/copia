@@ -9,7 +9,7 @@ use App\Http\Controllers\EventoController;
 
 // Route for the home page
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
 });
 
 // Authentication routes
